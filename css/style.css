@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.gap {
+  gap: 32px;
+}
+.color {
+  color: #469165;
+}
+.background_color {
+  background-color: #469165;
+}
+
+.inter {
+  font-family: "Inter";
+}
+
+ul {
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.btn {
+  padding: 16px 12px;
+  border-radius: 4px;
+  color: white;
+  border: none;
+}
+.navber {
+  padding: 16px 64px;
+}
+
+#banner {
+  background-image: url("../assets/hero-bg.png");
+  height: 674px;
+  color: white;
+}
+.transparent {
+  background-color: transparent;
+  border: 1px, solid, white;
+}
+.button-flex {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+.margin-banner {
+  margin-top: 128px;
+}
+.early-access {
+  background-color: white;
+  display: flex;
+  padding: 4px;
+  border-radius: 5px;
+}
+.flex-banner {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  text-align: center;
+}
+
+.banner-text {
+  font-size: 75px;
+}
